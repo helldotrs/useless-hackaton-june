@@ -2,8 +2,8 @@ from os import sched_param
 import random
 
 
-list_one = ["bottle","pizza","phone","app", "plant", "hack", "kim kardashian"]
-list_two = ["screams","cries","scratch","stops","guesses", "hacks"]
+list_one = ["bottle","pizza","phone","app", "plant", "hack", "kim kardashian", "napkin"]
+list_two = ["screams","cries","scratch","stops","guesses", "hacks", "breaks"]
 
 word_one = list_one[random.randint(0,len(list_one))]
 word_two = list_two[random.randint(0,len(list_two))]
